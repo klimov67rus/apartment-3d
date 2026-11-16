@@ -1,0 +1,129 @@
+{
+  "version": "1.0",
+  "kind": "opening-candidates",
+  "units": "px",
+  "scale": {
+    "status": "unknown",
+    "source": "No reference length supplied"
+  },
+  "image": {
+    "file": "1-floor-2.jpg",
+    "width": 1996,
+    "height": 1756
+  },
+  "reviewRequired": true,
+  "openings": [
+    {
+      "id": "o001",
+      "start": [
+        512.0,
+        367.75
+      ],
+      "end": [
+        800.0,
+        367.75
+      ],
+      "kind": "window",
+      "evidence": "near convex hull",
+      "wallIds": [
+        "n002",
+        "n003"
+      ],
+      "reviewRequired": true
+    },
+    {
+      "id": "o002",
+      "start": [
+        1111.0,
+        996.5
+      ],
+      "end": [
+        1156.0,
+        996.5
+      ],
+      "kind": "door",
+      "evidence": "diagonal line near jamb",
+      "wallIds": [
+        "n014",
+        "n012"
+      ],
+      "reviewRequired": true
+    },
+    {
+      "id": "o003",
+      "start": [
+        727.0,
+        998.5
+      ],
+      "end": [
+        897.0,
+        998.5
+      ],
+      "kind": "door",
+      "evidence": "diagonal line near jamb",
+      "wallIds": [
+        "n013",
+        "n014"
+      ],
+      "reviewRequired": true
+    },
+    {
+      "id": "o004",
+      "start": [
+        796.0,
+        1290.0
+      ],
+      "end": [
+        966.0,
+        1290.0
+      ],
+      "kind": "door",
+      "evidence": "diagonal line near jamb",
+      "wallIds": [
+        "n020",
+        "n019"
+      ],
+      "reviewRequired": true
+    },
+    {
+      "id": "o005",
+      "start": [
+        1094.5,
+        1086.0
+      ],
+      "end": [
+        1094.5,
+        1221.0
+      ],
+      "kind": "door",
+      "evidence": "diagonal line near jamb",
+      "wallIds": [
+        "n024",
+        "n025"
+      ],
+      "reviewRequired": true
+    },
+    {
+      "id": "o006",
+      "start": [
+        1100.5,
+        1086.0
+      ],
+      "end": [
+        1100.5,
+        1221.0
+      ],
+      "kind": "door",
+      "evidence": "diagonal line near jamb",
+      "wallIds": [
+        "n027",
+        "n025"
+      ],
+      "reviewRequired": true
+    }
+  ],
+  "uncertainties": [
+    "Heuristic candidates only; diagonal furniture can resemble a door and convex hull is an approximate exterior.",
+    "Openings can be missed where wall fragments are missing or misaligned; window/door type requires review."
+  ]
+}

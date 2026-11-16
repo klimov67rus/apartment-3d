@@ -1,0 +1,16 @@
+{
+  "status": "estimated",
+  "metersPerPixel": 0.004705882352941177,
+  "assumedDoorWidthMeters": 0.8,
+  "doorWidthsPixels": [
+    170.0,
+    360.0,
+    153.0,
+    179.0
+  ],
+  "usedDoorWidthsPixels": [
+    170.0,
+    153.0,
+    179.0
+  ]
+}

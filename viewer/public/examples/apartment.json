@@ -1,0 +1,209 @@
+{
+  "version": "1.0",
+  "name": "Квартира / 01",
+  "units": "m",
+  "scale": {
+    "status": "known",
+    "source": "Синтетический тестовый план, размеры заданы автором"
+  },
+  "uncertainties": [
+    "Демонстрационные данные, не результат распознавания"
+  ],
+  "walls": [
+    {
+      "id": "w0",
+      "start": [
+        0,
+        0
+      ],
+      "end": [
+        8,
+        0
+      ],
+      "thickness": 0.18,
+      "height": 2.8
+    },
+    {
+      "id": "w1",
+      "start": [
+        8,
+        0
+      ],
+      "end": [
+        8,
+        6
+      ],
+      "thickness": 0.18,
+      "height": 2.8
+    },
+    {
+      "id": "w2",
+      "start": [
+        8,
+        6
+      ],
+      "end": [
+        0,
+        6
+      ],
+      "thickness": 0.18,
+      "height": 2.8
+    },
+    {
+      "id": "w3",
+      "start": [
+        0,
+        6
+      ],
+      "end": [
+        0,
+        0
+      ],
+      "thickness": 0.18,
+      "height": 2.8
+    },
+    {
+      "id": "w4",
+      "start": [
+        5,
+        0
+      ],
+      "end": [
+        5,
+        6
+      ],
+      "thickness": 0.18,
+      "height": 2.8
+    },
+    {
+      "id": "w5",
+      "start": [
+        5,
+        3
+      ],
+      "end": [
+        8,
+        3
+      ],
+      "thickness": 0.18,
+      "height": 2.8
+    }
+  ],
+  "rooms": [
+    {
+      "id": "living",
+      "name": "Гостиная",
+      "polygon": [
+        [
+          0,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          0,
+          6
+        ]
+      ]
+    },
+    {
+      "id": "bed",
+      "name": "Спальня",
+      "polygon": [
+        [
+          5,
+          0
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          8,
+          3
+        ],
+        [
+          5,
+          3
+        ]
+      ]
+    },
+    {
+      "id": "hall",
+      "name": "Прихожая",
+      "polygon": [
+        [
+          5,
+          3
+        ],
+        [
+          8,
+          3
+        ],
+        [
+          8,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ]
+    }
+  ],
+  "openings": [
+    {
+      "id": "entry",
+      "wallId": "w2",
+      "kind": "door",
+      "offset": 0.7,
+      "width": 0.95,
+      "bottom": 0,
+      "height": 2.1
+    },
+    {
+      "id": "d1",
+      "wallId": "w4",
+      "kind": "door",
+      "offset": 4,
+      "width": 0.9,
+      "bottom": 0,
+      "height": 2.1
+    },
+    {
+      "id": "d2",
+      "wallId": "w5",
+      "kind": "door",
+      "offset": 1,
+      "width": 0.8,
+      "bottom": 0,
+      "height": 2.1
+    },
+    {
+      "id": "win1",
+      "wallId": "w0",
+      "kind": "window",
+      "offset": 1,
+      "width": 2.4,
+      "bottom": 0.9,
+      "height": 1.4
+    },
+    {
+      "id": "win2",
+      "wallId": "w1",
+      "kind": "window",
+      "offset": 0.7,
+      "width": 1.6,
+      "bottom": 0.9,
+      "height": 1.4
+    }
+  ],
+  "furniture": [],
+  "models": {}
+}

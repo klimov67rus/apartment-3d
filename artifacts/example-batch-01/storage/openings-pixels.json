@@ -1,0 +1,57 @@
+{
+  "version": "1.0",
+  "kind": "opening-candidates",
+  "units": "px",
+  "scale": {
+    "status": "unknown",
+    "source": "No reference length supplied"
+  },
+  "image": {
+    "file": "кладовка.jpg",
+    "width": 800,
+    "height": 700
+  },
+  "reviewRequired": true,
+  "openings": [
+    {
+      "id": "o001",
+      "start": [
+        279.0,
+        218.5
+      ],
+      "end": [
+        363.0,
+        218.5
+      ],
+      "kind": "window",
+      "evidence": "near convex hull",
+      "wallIds": [
+        "n001",
+        "n002"
+      ],
+      "reviewRequired": true
+    },
+    {
+      "id": "o002",
+      "start": [
+        279.0,
+        229.5
+      ],
+      "end": [
+        363.5,
+        229.5
+      ],
+      "kind": "unknown",
+      "evidence": "unclassified gap",
+      "wallIds": [
+        "n003",
+        "n004"
+      ],
+      "reviewRequired": true
+    }
+  ],
+  "uncertainties": [
+    "Heuristic candidates only; diagonal furniture can resemble a door and convex hull is an approximate exterior.",
+    "Openings can be missed where wall fragments are missing or misaligned; window/door type requires review."
+  ]
+}

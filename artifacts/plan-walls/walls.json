@@ -1,0 +1,381 @@
+{
+  "version": "1.0",
+  "kind": "wall-candidates",
+  "units": "px",
+  "scale": {
+    "status": "unknown",
+    "source": "No reference length supplied"
+  },
+  "image": {
+    "file": "plan.jpg",
+    "width": 1052,
+    "height": 1162
+  },
+  "reviewRequired": true,
+  "settings": {
+    "method": "otsu-morphology-scanlines-v1",
+    "threshold": 167.0,
+    "minThicknessPx": 5,
+    "minLengthPx": 43,
+    "mergeGapPx": 5
+  },
+  "walls": [
+    {
+      "id": "w001",
+      "start": [
+        766.0,
+        99.5
+      ],
+      "end": [
+        872.0,
+        99.5
+      ],
+      "thickness": 16.0,
+      "status": "candidate"
+    },
+    {
+      "id": "w002",
+      "start": [
+        124.0,
+        121.0
+      ],
+      "end": [
+        872.0,
+        121.0
+      ],
+      "thickness": 27.0,
+      "status": "candidate"
+    },
+    {
+      "id": "w003",
+      "start": [
+        124.0,
+        272.5
+      ],
+      "end": [
+        202.0,
+        272.5
+      ],
+      "thickness": 28.0,
+      "status": "candidate"
+    },
+    {
+      "id": "w004",
+      "start": [
+        272.0,
+        422.5
+      ],
+      "end": [
+        322.0,
+        422.5
+      ],
+      "thickness": 14.0,
+      "status": "candidate"
+    },
+    {
+      "id": "w005",
+      "start": [
+        402.0,
+        423.0
+      ],
+      "end": [
+        872.0,
+        423.0
+      ],
+      "thickness": 13.0,
+      "status": "candidate"
+    },
+    {
+      "id": "w006",
+      "start": [
+        124.0,
+        430.5
+      ],
+      "end": [
+        202.0,
+        430.5
+      ],
+      "thickness": 30.0,
+      "status": "candidate"
+    },
+    {
+      "id": "w007",
+      "start": [
+        719.0,
+        445.0
+      ],
+      "end": [
+        872.0,
+        445.0
+      ],
+      "thickness": 31.0,
+      "status": "candidate"
+    },
+    {
+      "id": "w008",
+      "start": [
+        719.0,
+        470.0
+      ],
+      "end": [
+        762.0,
+        470.0
+      ],
+      "thickness": 19.0,
+      "status": "candidate"
+    },
+    {
+      "id": "w009",
+      "start": [
+        402.0,
+        701.5
+      ],
+      "end": [
+        762.0,
+        701.5
+      ],
+      "thickness": 8.0,
+      "status": "candidate"
+    },
+    {
+      "id": "w010",
+      "start": [
+        124.0,
+        704.5
+      ],
+      "end": [
+        208.0,
+        704.5
+      ],
+      "thickness": 14.0,
+      "status": "candidate"
+    },
+    {
+      "id": "w011",
+      "start": [
+        278.0,
+        704.5
+      ],
+      "end": [
+        322.0,
+        704.5
+      ],
+      "thickness": 14.0,
+      "status": "candidate"
+    },
+    {
+      "id": "w012",
+      "start": [
+        402.0,
+        708.0
+      ],
+      "end": [
+        873.0,
+        708.0
+      ],
+      "thickness": 5.0,
+      "status": "candidate"
+    },
+    {
+      "id": "w013",
+      "start": [
+        720.0,
+        715.0
+      ],
+      "end": [
+        762.0,
+        715.0
+      ],
+      "thickness": 7.0,
+      "status": "candidate"
+    },
+    {
+      "id": "w014",
+      "start": [
+        207.0,
+        987.0
+      ],
+      "end": [
+        322.0,
+        987.0
+      ],
+      "thickness": 29.0,
+      "status": "candidate"
+    },
+    {
+      "id": "w015",
+      "start": [
+        124.0,
+        1016.5
+      ],
+      "end": [
+        762.0,
+        1016.5
+      ],
+      "thickness": 26.0,
+      "status": "candidate"
+    },
+    {
+      "id": "w016",
+      "start": [
+        137.5,
+        680.0
+      ],
+      "end": [
+        137.5,
+        1029.0
+      ],
+      "thickness": 28.0,
+      "status": "candidate"
+    },
+    {
+      "id": "w017",
+      "start": [
+        138.0,
+        108.0
+      ],
+      "end": [
+        138.0,
+        286.0
+      ],
+      "thickness": 29.0,
+      "status": "candidate"
+    },
+    {
+      "id": "w018",
+      "start": [
+        138.5,
+        416.0
+      ],
+      "end": [
+        138.5,
+        592.0
+      ],
+      "thickness": 30.0,
+      "status": "candidate"
+    },
+    {
+      "id": "w019",
+      "start": [
+        187.0,
+        259.0
+      ],
+      "end": [
+        187.0,
+        445.0
+      ],
+      "thickness": 25.0,
+      "status": "candidate"
+    },
+    {
+      "id": "w020",
+      "start": [
+        312.5,
+        698.0
+      ],
+      "end": [
+        312.5,
+        1029.0
+      ],
+      "thickness": 8.0,
+      "status": "candidate"
+    },
+    {
+      "id": "w021",
+      "start": [
+        314.0,
+        108.0
+      ],
+      "end": [
+        314.0,
+        429.0
+      ],
+      "thickness": 11.0,
+      "status": "candidate"
+    },
+    {
+      "id": "w022",
+      "start": [
+        412.0,
+        416.0
+      ],
+      "end": [
+        412.0,
+        467.0
+      ],
+      "thickness": 13.0,
+      "status": "candidate"
+    },
+    {
+      "id": "w023",
+      "start": [
+        412.0,
+        546.0
+      ],
+      "end": [
+        412.0,
+        711.0
+      ],
+      "thickness": 13.0,
+      "status": "candidate"
+    },
+    {
+      "id": "w024",
+      "start": [
+        738.0,
+        590.0
+      ],
+      "end": [
+        738.0,
+        718.0
+      ],
+      "thickness": 37.0,
+      "status": "candidate"
+    },
+    {
+      "id": "w025",
+      "start": [
+        741.0,
+        852.0
+      ],
+      "end": [
+        741.0,
+        1029.0
+      ],
+      "thickness": 43.0,
+      "status": "candidate"
+    },
+    {
+      "id": "w026",
+      "start": [
+        759.5,
+        417.0
+      ],
+      "end": [
+        759.5,
+        723.0
+      ],
+      "thickness": 6.0,
+      "status": "candidate"
+    },
+    {
+      "id": "w027",
+      "start": [
+        851.5,
+        92.0
+      ],
+      "end": [
+        851.5,
+        194.0
+      ],
+      "thickness": 42.0,
+      "status": "candidate"
+    }
+  ],
+  "uncertainties": [
+    "Heuristic candidates, not verified walls; thick furniture may produce false positives.",
+    "Only horizontal and vertical thick strokes are detected; thin or diagonal walls may be missing.",
+    "Rooms, doors, windows, wall heights and metric scale have not been inferred.",
+    "Gaps no wider than mergeGapPx may be joined; wider gaps are not classified as openings."
+  ]
+}

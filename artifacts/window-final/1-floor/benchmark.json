@@ -1,0 +1,47 @@
+{
+  "windowOneToOneMatches": [
+    {
+      "referenceIndex": 1,
+      "detectedIndex": 0,
+      "overlap": 1.0
+    }
+  ],
+  "unmatchedSampledWindows": 1,
+  "unmatchedDetectedWindows": 0,
+  "roomOneToOneMatches": [
+    {
+      "referenceIndex": 2,
+      "detectedIndex": 1,
+      "iou": 0.8911812323293344
+    },
+    {
+      "referenceIndex": 3,
+      "detectedIndex": 0,
+      "iou": 0.8299972425113091
+    }
+  ],
+  "unmatchedReferenceRooms": 3,
+  "unmatchedDetectedRooms": 0,
+  "sampledWallCoverage": 0.8456686046511628,
+  "sampledWindowCoverage": 1.0,
+  "roomBestIoU": {
+    "жилая": 0.0,
+    "кухня": 0.0,
+    "санузел": 0.8911812323293344,
+    "лоджия": 0.8299972425113091,
+    "прихожая": 0.0
+  },
+  "wallLengthPrecision": 0.7528966089541019,
+  "wallLengthRecall": 0.9423764938722692,
+  "windows": {
+    "truePositive": 1,
+    "falsePositive": 0,
+    "falseNegative": 1
+  },
+  "rooms": {
+    "truePositive": 2,
+    "falsePositive": 0,
+    "falseNegative": 3
+  },
+  "warning": "Reference is hand-annotated and approximate; wall metrics use union length within 20 px, window matches use 25 px and 50% overlap, room IoU threshold is 0.5."
+}

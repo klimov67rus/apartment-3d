@@ -1,0 +1,33 @@
+[tools]
+node = "24"
+python = "3.12"
+uv = "latest"
+
+[env]
+# Python is provided by mise; uv only manages project packages and .venv.
+UV_PYTHON_DOWNLOADS = "never"
+UV_CACHE_DIR = "{{ config_root }}/.cache/uv"
+
+[tasks.setup]
+description = "Install JavaScript and Python dependencies"
+run = ['npm install', 'uv sync --python "$(mise which python)"']
+
+[tasks.dev]
+description = "Start the local viewer and recognition service"
+run = "uv run python -m recognizer.dev"
+
+[tasks.test]
+description = "Run geometry, contract and calibration tests"
+run = ["npm test", "uv run python -m unittest discover -s tests -p 'test_*.py' -v"]
+
+[tasks.build]
+description = "Type-check and build the viewer"
+run = "npm run build"
+
+[tasks.validate]
+description = "Validate the example apartment"
+run = "uv run python -m recognizer.cli validate viewer/public/examples/apartment.json"
+
+[tasks.benchmark]
+description = "Compare recognition against the annotated plans"
+run = "uv run python -m recognizer.check_regressions"

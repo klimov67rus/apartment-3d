@@ -1,0 +1,237 @@
+{
+  "version": "1.0",
+  "kind": "opening-candidates",
+  "units": "px",
+  "scale": {
+    "status": "unknown",
+    "source": "No reference length supplied"
+  },
+  "image": {
+    "file": "plan.jpg",
+    "width": 1052,
+    "height": 1162
+  },
+  "reviewRequired": true,
+  "openings": [
+    {
+      "id": "o001",
+      "start": [
+        203.0,
+        426.5
+      ],
+      "end": [
+        272.0,
+        426.5
+      ],
+      "kind": "door",
+      "evidence": "diagonal line near jamb",
+      "wallIds": [
+        "n012",
+        "n011"
+      ],
+      "reviewRequired": true
+    },
+    {
+      "id": "o002",
+      "start": [
+        322.0,
+        422.75
+      ],
+      "end": [
+        402.0,
+        422.75
+      ],
+      "kind": "door",
+      "evidence": "diagonal line near jamb",
+      "wallIds": [
+        "n011",
+        "n013"
+      ],
+      "reviewRequired": true
+    },
+    {
+      "id": "o003",
+      "start": [
+        322.0,
+        705.0
+      ],
+      "end": [
+        402.0,
+        705.0
+      ],
+      "kind": "door",
+      "evidence": "diagonal line near jamb",
+      "wallIds": [
+        "n021",
+        "n019"
+      ],
+      "reviewRequired": true
+    },
+    {
+      "id": "o004",
+      "start": [
+        208.0,
+        705.25
+      ],
+      "end": [
+        278.0,
+        705.25
+      ],
+      "kind": "door",
+      "evidence": "diagonal line near jamb",
+      "wallIds": [
+        "n020",
+        "n021"
+      ],
+      "reviewRequired": true
+    },
+    {
+      "id": "o005",
+      "start": [
+        571.0,
+        737.5
+      ],
+      "end": [
+        599.0,
+        737.5
+      ],
+      "kind": "door",
+      "evidence": "diagonal line near jamb",
+      "wallIds": [
+        "n023",
+        "n024"
+      ],
+      "reviewRequired": true
+    },
+    {
+      "id": "o006",
+      "start": [
+        571.0,
+        868.5
+      ],
+      "end": [
+        599.0,
+        868.5
+      ],
+      "kind": "door",
+      "evidence": "diagonal line near jamb",
+      "wallIds": [
+        "n027",
+        "n028"
+      ],
+      "reviewRequired": true
+    },
+    {
+      "id": "o007",
+      "start": [
+        138.0,
+        303.0
+      ],
+      "end": [
+        138.0,
+        416.0
+      ],
+      "kind": "window",
+      "evidence": "near convex hull",
+      "wallIds": [
+        "n031",
+        "n032"
+      ],
+      "reviewRequired": true
+    },
+    {
+      "id": "o008",
+      "start": [
+        137.5,
+        592.0
+      ],
+      "end": [
+        137.5,
+        680.0
+      ],
+      "kind": "door",
+      "evidence": "diagonal line near jamb",
+      "wallIds": [
+        "n032",
+        "n033"
+      ],
+      "reviewRequired": true
+    },
+    {
+      "id": "o009",
+      "start": [
+        412.0,
+        467.0
+      ],
+      "end": [
+        412.0,
+        546.0
+      ],
+      "kind": "door",
+      "evidence": "diagonal line near jamb",
+      "wallIds": [
+        "n038",
+        "n039"
+      ],
+      "reviewRequired": true
+    },
+    {
+      "id": "o010",
+      "start": [
+        729.75,
+        718.0
+      ],
+      "end": [
+        729.75,
+        852.0
+      ],
+      "kind": "unknown",
+      "evidence": "unclassified gap",
+      "wallIds": [
+        "n044",
+        "n045"
+      ],
+      "reviewRequired": true
+    },
+    {
+      "id": "o011",
+      "start": [
+        739.0,
+        718.0
+      ],
+      "end": [
+        739.0,
+        852.0
+      ],
+      "kind": "unknown",
+      "evidence": "unclassified gap",
+      "wallIds": [
+        "n046",
+        "n045"
+      ],
+      "reviewRequired": true
+    },
+    {
+      "id": "o012",
+      "start": [
+        852.5,
+        195.5
+      ],
+      "end": [
+        852.5,
+        379.0
+      ],
+      "kind": "window",
+      "evidence": "near convex hull",
+      "wallIds": [
+        "n050",
+        "n049"
+      ],
+      "reviewRequired": true
+    }
+  ],
+  "uncertainties": [
+    "Heuristic candidates only; diagonal furniture can resemble a door and convex hull is an approximate exterior.",
+    "Openings can be missed where wall fragments are missing or misaligned; window/door type requires review."
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "type": "object",
+  "properties": {
+    "version": {
+      "const": "1.0"
+    },
+    "kind": {
+      "const": "wall-candidates"
+    },
+    "units": {
+      "const": "px"
+    },
+    "scale": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "const": "unknown"
+        },
+        "source": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "status",
+        "source"
+      ],
+      "additionalProperties": false
+    },
+    "image": {
+      "type": "object",
+      "properties": {
+        "file": {
+          "type": "string",
+          "minLength": 1
+        },
+        "width": {
+          "type": "integer",
+          "minimum": 16
+        },
+        "height": {
+          "type": "integer",
+          "minimum": 16
+        }
+      },
+      "required": [
+        "file",
+        "width",
+        "height"
+      ],
+      "additionalProperties": false
+    },
+    "reviewRequired": {
+      "const": true
+    },
+    "settings": {
+      "type": "object",
+      "properties": {
+        "method": {
+          "const": "otsu-morphology-scanlines-v1"
+        },
+        "threshold": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 255
+        },
+        "minThicknessPx": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "minLengthPx": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "mergeGapPx": {
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "required": [
+        "method",
+        "threshold",
+        "minThicknessPx",
+        "minLengthPx",
+        "mergeGapPx"
+      ],
+      "additionalProperties": false
+    },
+    "walls": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^w[0-9]+$"
+          },
+          "start": {
+            "type": "array",
+            "items": {
+              "type": "number",
+              "minimum": 0
+            },
+            "minItems": 2,
+            "maxItems": 2
+          },
+          "end": {
+            "type": "array",
+            "items": {
+              "type": "number",
+              "minimum": 0
+            },
+            "minItems": 2,
+            "maxItems": 2
+          },
+          "thickness": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "status": {
+            "const": "candidate"
+          }
+        },
+        "required": [
+          "id",
+          "start",
+          "end",
+          "thickness",
+          "status"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "uncertainties": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    }
+  },
+  "required": [
+    "version",
+    "kind",
+    "units",
+    "scale",
+    "image",
+    "reviewRequired",
+    "settings",
+    "walls",
+    "uncertainties"
+  ],
+  "additionalProperties": false,
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}

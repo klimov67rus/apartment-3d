@@ -1,0 +1,486 @@
+{
+  "version": "1.0",
+  "kind": "normalized-wall-candidates",
+  "units": "px",
+  "scale": {
+    "status": "unknown",
+    "source": "No reference length supplied"
+  },
+  "image": {
+    "file": "2-floor-1.jpg",
+    "width": 2500,
+    "height": 2000
+  },
+  "reviewRequired": true,
+  "walls": [
+    {
+      "id": "n001",
+      "start": [
+        460.0,
+        322.5
+      ],
+      "end": [
+        844.0,
+        322.5
+      ],
+      "thickness": 52.0,
+      "sourceIds": [
+        "w001"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "n002",
+      "start": [
+        1014.0,
+        322.5
+      ],
+      "end": [
+        1998.0,
+        322.5
+      ],
+      "thickness": 48.0,
+      "sourceIds": [
+        "w002"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "n003",
+      "start": [
+        461.0,
+        526.5
+      ],
+      "end": [
+        573.0,
+        526.5
+      ],
+      "thickness": 10.0,
+      "sourceIds": [
+        "w003"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "n004",
+      "start": [
+        1161.0,
+        596.0
+      ],
+      "end": [
+        1242.0,
+        596.0
+      ],
+      "thickness": 23.0,
+      "sourceIds": [
+        "w004"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "n005",
+      "start": [
+        1207.0,
+        797.0
+      ],
+      "end": [
+        1452.0,
+        797.0
+      ],
+      "thickness": 21.0,
+      "sourceIds": [
+        "w005",
+        "w007"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "n006",
+      "start": [
+        461.0,
+        794.0
+      ],
+      "end": [
+        847.0,
+        794.0
+      ],
+      "thickness": 21.0,
+      "sourceIds": [
+        "w006"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "n007",
+      "start": [
+        1426.0,
+        1332.0
+      ],
+      "end": [
+        1587.0,
+        1332.0
+      ],
+      "thickness": 21.0,
+      "sourceIds": [
+        "w008"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "n008",
+      "start": [
+        1740.0,
+        1332.5
+      ],
+      "end": [
+        1994.0,
+        1332.5
+      ],
+      "thickness": 26.0,
+      "sourceIds": [
+        "w009"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "n009",
+      "start": [
+        925.0,
+        1568.5
+      ],
+      "end": [
+        1107.0,
+        1568.5
+      ],
+      "thickness": 86.0,
+      "sourceIds": [
+        "w010"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "n010",
+      "start": [
+        1145.0,
+        1635.0
+      ],
+      "end": [
+        1324.0,
+        1635.0
+      ],
+      "thickness": 67.0,
+      "sourceIds": [
+        "w011"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "n011",
+      "start": [
+        483.5,
+        297.0
+      ],
+      "end": [
+        483.5,
+        1611.0
+      ],
+      "thickness": 46.0,
+      "sourceIds": [
+        "w012"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "n012",
+      "start": [
+        534.5,
+        522.0
+      ],
+      "end": [
+        534.5,
+        804.0
+      ],
+      "thickness": 52.0,
+      "sourceIds": [
+        "w013"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "n013",
+      "start": [
+        825.5,
+        297.0
+      ],
+      "end": [
+        825.5,
+        605.0
+      ],
+      "thickness": 26.0,
+      "sourceIds": [
+        "w014"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "n014",
+      "start": [
+        1017.0,
+        784.0
+      ],
+      "end": [
+        1017.0,
+        1611.0
+      ],
+      "thickness": 23.0,
+      "sourceIds": [
+        "w015"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "n015",
+      "start": [
+        1172.5,
+        299.0
+      ],
+      "end": [
+        1172.5,
+        608.0
+      ],
+      "thickness": 24.0,
+      "sourceIds": [
+        "w016"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "n016",
+      "start": [
+        1414.5,
+        299.0
+      ],
+      "end": [
+        1414.5,
+        605.0
+      ],
+      "thickness": 76.0,
+      "sourceIds": [
+        "w017",
+        "w019"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "n017",
+      "start": [
+        1440.5,
+        784.0
+      ],
+      "end": [
+        1440.5,
+        1611.0
+      ],
+      "thickness": 24.0,
+      "sourceIds": [
+        "w018",
+        "w020"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "n018",
+      "start": [
+        1470.5,
+        1526.0
+      ],
+      "end": [
+        1470.5,
+        1611.0
+      ],
+      "thickness": 36.0,
+      "sourceIds": [
+        "w021"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "n019",
+      "start": [
+        1851.0,
+        1075.0
+      ],
+      "end": [
+        1851.0,
+        1183.0
+      ],
+      "thickness": 9.0,
+      "sourceIds": [
+        "w022"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "n020",
+      "start": [
+        1971.0,
+        299.0
+      ],
+      "end": [
+        1971.0,
+        1611.0
+      ],
+      "thickness": 47.0,
+      "sourceIds": [
+        "w023"
+      ],
+      "status": "candidate"
+    }
+  ],
+  "junctions": [
+    {
+      "position": [
+        483.5,
+        322.5
+      ],
+      "walls": [
+        "n001",
+        "n011"
+      ]
+    },
+    {
+      "position": [
+        825.5,
+        322.5
+      ],
+      "walls": [
+        "n001",
+        "n013"
+      ]
+    },
+    {
+      "position": [
+        1172.5,
+        322.5
+      ],
+      "walls": [
+        "n002",
+        "n015"
+      ]
+    },
+    {
+      "position": [
+        1414.5,
+        322.5
+      ],
+      "walls": [
+        "n002",
+        "n016"
+      ]
+    },
+    {
+      "position": [
+        1971.0,
+        322.5
+      ],
+      "walls": [
+        "n002",
+        "n020"
+      ]
+    },
+    {
+      "position": [
+        483.5,
+        526.5
+      ],
+      "walls": [
+        "n003",
+        "n011"
+      ]
+    },
+    {
+      "position": [
+        534.5,
+        526.5
+      ],
+      "walls": [
+        "n003",
+        "n012"
+      ]
+    },
+    {
+      "position": [
+        1172.5,
+        596.0
+      ],
+      "walls": [
+        "n004",
+        "n015"
+      ]
+    },
+    {
+      "position": [
+        1440.5,
+        797.0
+      ],
+      "walls": [
+        "n005",
+        "n017"
+      ]
+    },
+    {
+      "position": [
+        483.5,
+        794.0
+      ],
+      "walls": [
+        "n006",
+        "n011"
+      ]
+    },
+    {
+      "position": [
+        534.5,
+        794.0
+      ],
+      "walls": [
+        "n006",
+        "n012"
+      ]
+    },
+    {
+      "position": [
+        1440.5,
+        1332.0
+      ],
+      "walls": [
+        "n007",
+        "n017"
+      ]
+    },
+    {
+      "position": [
+        1971.0,
+        1332.5
+      ],
+      "walls": [
+        "n008",
+        "n020"
+      ]
+    },
+    {
+      "position": [
+        1017.0,
+        1568.5
+      ],
+      "walls": [
+        "n009",
+        "n014"
+      ]
+    }
+  ],
+  "uncertainties": [
+    "Automatic candidates; scale is unknown.",
+    "Merges and junctions are heuristic and require review; gaps are not classified."
+  ]
+}

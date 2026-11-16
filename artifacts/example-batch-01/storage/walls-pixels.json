@@ -1,0 +1,299 @@
+{
+  "version": "1.0",
+  "kind": "normalized-wall-candidates",
+  "units": "px",
+  "scale": {
+    "status": "unknown",
+    "source": "No reference length supplied"
+  },
+  "image": {
+    "file": "кладовка.jpg",
+    "width": 800,
+    "height": 700
+  },
+  "reviewRequired": true,
+  "walls": [
+    {
+      "id": "n001",
+      "start": [
+        231.0,
+        218.5
+      ],
+      "end": [
+        279.0,
+        218.5
+      ],
+      "thickness": 6.0,
+      "sourceIds": [
+        "w001"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "n002",
+      "start": [
+        363.0,
+        218.5
+      ],
+      "end": [
+        429.0,
+        218.5
+      ],
+      "thickness": 6.0,
+      "sourceIds": [
+        "w002"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "n003",
+      "start": [
+        243.0,
+        229.5
+      ],
+      "end": [
+        279.0,
+        229.5
+      ],
+      "thickness": 4.0,
+      "sourceIds": [
+        "w003"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "n004",
+      "start": [
+        363.5,
+        229.5
+      ],
+      "end": [
+        418.0,
+        229.5
+      ],
+      "thickness": 4.0,
+      "sourceIds": [
+        "w004"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "n005",
+      "start": [
+        333.0,
+        373.0
+      ],
+      "end": [
+        388.0,
+        373.0
+      ],
+      "thickness": 3.0,
+      "sourceIds": [
+        "w005"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "n006",
+      "start": [
+        231.0,
+        392.5
+      ],
+      "end": [
+        429.0,
+        392.5
+      ],
+      "thickness": 4.0,
+      "sourceIds": [
+        "w006"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "n007",
+      "start": [
+        231.0,
+        414.5
+      ],
+      "end": [
+        429.0,
+        414.5
+      ],
+      "thickness": 4.0,
+      "sourceIds": [
+        "w007"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "n008",
+      "start": [
+        233.0,
+        216.0
+      ],
+      "end": [
+        233.0,
+        416.0
+      ],
+      "thickness": 5.0,
+      "sourceIds": [
+        "w008"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "n009",
+      "start": [
+        245.0,
+        228.0
+      ],
+      "end": [
+        245.0,
+        394.0
+      ],
+      "thickness": 5.0,
+      "sourceIds": [
+        "w009"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "n010",
+      "start": [
+        415.5,
+        228.0
+      ],
+      "end": [
+        415.5,
+        394.0
+      ],
+      "thickness": 6.0,
+      "sourceIds": [
+        "w010"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "n011",
+      "start": [
+        427.0,
+        216.0
+      ],
+      "end": [
+        427.0,
+        416.0
+      ],
+      "thickness": 5.0,
+      "sourceIds": [
+        "w011"
+      ],
+      "status": "candidate"
+    }
+  ],
+  "junctions": [
+    {
+      "position": [
+        233.0,
+        218.5
+      ],
+      "walls": [
+        "n001",
+        "n008"
+      ]
+    },
+    {
+      "position": [
+        427.0,
+        218.5
+      ],
+      "walls": [
+        "n002",
+        "n011"
+      ]
+    },
+    {
+      "position": [
+        245.0,
+        229.5
+      ],
+      "walls": [
+        "n003",
+        "n009"
+      ]
+    },
+    {
+      "position": [
+        415.5,
+        229.5
+      ],
+      "walls": [
+        "n004",
+        "n010"
+      ]
+    },
+    {
+      "position": [
+        233.0,
+        392.5
+      ],
+      "walls": [
+        "n006",
+        "n008"
+      ]
+    },
+    {
+      "position": [
+        245.0,
+        392.5
+      ],
+      "walls": [
+        "n006",
+        "n009"
+      ]
+    },
+    {
+      "position": [
+        415.5,
+        392.5
+      ],
+      "walls": [
+        "n006",
+        "n010"
+      ]
+    },
+    {
+      "position": [
+        427.0,
+        392.5
+      ],
+      "walls": [
+        "n006",
+        "n011"
+      ]
+    },
+    {
+      "position": [
+        233.0,
+        414.5
+      ],
+      "walls": [
+        "n007",
+        "n008"
+      ]
+    },
+    {
+      "position": [
+        427.0,
+        414.5
+      ],
+      "walls": [
+        "n007",
+        "n011"
+      ]
+    }
+  ],
+  "uncertainties": [
+    "Automatic candidates; scale is unknown.",
+    "Merges and junctions are heuristic and require review; gaps are not classified."
+  ]
+}

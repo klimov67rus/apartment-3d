@@ -1,0 +1,794 @@
+{
+  "version": "1.0",
+  "kind": "normalized-wall-candidates",
+  "units": "px",
+  "scale": {
+    "status": "unknown",
+    "source": "No reference length supplied"
+  },
+  "image": {
+    "file": "1-floor-2.jpg",
+    "width": 1996,
+    "height": 1756
+  },
+  "reviewRequired": true,
+  "walls": [
+    {
+      "id": "n001",
+      "start": [
+        566.0,
+        304.0
+      ],
+      "end": [
+        744.0,
+        304.0
+      ],
+      "thickness": 67.0,
+      "sourceIds": [
+        "w001"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "n002",
+      "start": [
+        300.0,
+        372.0
+      ],
+      "end": [
+        512.0,
+        372.0
+      ],
+      "thickness": 85.0,
+      "sourceIds": [
+        "w002",
+        "w005"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "n003",
+      "start": [
+        800.0,
+        363.5
+      ],
+      "end": [
+        1129.0,
+        363.5
+      ],
+      "thickness": 68.0,
+      "sourceIds": [
+        "w003",
+        "w004"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "n004",
+      "start": [
+        808.0,
+        408.5
+      ],
+      "end": [
+        1121.0,
+        408.5
+      ],
+      "thickness": 12.0,
+      "sourceIds": [
+        "w006"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "n005",
+      "start": [
+        1417.0,
+        580.0
+      ],
+      "end": [
+        1521.0,
+        580.0
+      ],
+      "thickness": 5.0,
+      "sourceIds": [
+        "w007"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "n006",
+      "start": [
+        1289.0,
+        608.5
+      ],
+      "end": [
+        1609.0,
+        608.5
+      ],
+      "thickness": 22.0,
+      "sourceIds": [
+        "w008"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "n007",
+      "start": [
+        1562.0,
+        628.0
+      ],
+      "end": [
+        1609.0,
+        628.0
+      ],
+      "thickness": 13.0,
+      "sourceIds": [
+        "w009"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "n008",
+      "start": [
+        1306.0,
+        808.0
+      ],
+      "end": [
+        1410.0,
+        808.0
+      ],
+      "thickness": 5.0,
+      "sourceIds": [
+        "w010"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "n009",
+      "start": [
+        723.0,
+        900.5
+      ],
+      "end": [
+        855.0,
+        900.5
+      ],
+      "thickness": 6.0,
+      "sourceIds": [
+        "w011"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "n010",
+      "start": [
+        1087.0,
+        955.0
+      ],
+      "end": [
+        1609.0,
+        955.0
+      ],
+      "thickness": 25.0,
+      "sourceIds": [
+        "w012"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "n011",
+      "start": [
+        562.0,
+        968.0
+      ],
+      "end": [
+        643.0,
+        968.0
+      ],
+      "thickness": 7.0,
+      "sourceIds": [
+        "w013"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "n012",
+      "start": [
+        1156.0,
+        994.5
+      ],
+      "end": [
+        1209.0,
+        994.5
+      ],
+      "thickness": 8.0,
+      "sourceIds": [
+        "w014"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "n013",
+      "start": [
+        300.0,
+        998.5
+      ],
+      "end": [
+        727.0,
+        998.5
+      ],
+      "thickness": 24.0,
+      "sourceIds": [
+        "w015"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "n014",
+      "start": [
+        897.0,
+        998.5
+      ],
+      "end": [
+        1111.0,
+        998.5
+      ],
+      "thickness": 24.0,
+      "sourceIds": [
+        "w016"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "n015",
+      "start": [
+        923.0,
+        1024.0
+      ],
+      "end": [
+        1063.0,
+        1024.0
+      ],
+      "thickness": 5.0,
+      "sourceIds": [
+        "w017"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "n016",
+      "start": [
+        888.0,
+        1143.5
+      ],
+      "end": [
+        991.0,
+        1143.5
+      ],
+      "thickness": 6.0,
+      "sourceIds": [
+        "w018"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "n017",
+      "start": [
+        513.0,
+        1198.0
+      ],
+      "end": [
+        616.0,
+        1198.0
+      ],
+      "thickness": 5.0,
+      "sourceIds": [
+        "w019"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "n018",
+      "start": [
+        1249.0,
+        1250.5
+      ],
+      "end": [
+        1353.0,
+        1250.5
+      ],
+      "thickness": 6.0,
+      "sourceIds": [
+        "w020"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "n019",
+      "start": [
+        966.0,
+        1287.5
+      ],
+      "end": [
+        1609.0,
+        1287.5
+      ],
+      "thickness": 50.0,
+      "sourceIds": [
+        "w021"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "n020",
+      "start": [
+        300.0,
+        1292.5
+      ],
+      "end": [
+        796.0,
+        1292.5
+      ],
+      "thickness": 54.0,
+      "sourceIds": [
+        "w022",
+        "w023"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "n021",
+      "start": [
+        324.0,
+        330.0
+      ],
+      "end": [
+        324.0,
+        1319.0
+      ],
+      "thickness": 49.0,
+      "sourceIds": [
+        "w024"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "n022",
+      "start": [
+        633.0,
+        1165.0
+      ],
+      "end": [
+        633.0,
+        1257.0
+      ],
+      "thickness": 5.0,
+      "sourceIds": [
+        "w025"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "n023",
+      "start": [
+        648.5,
+        1171.0
+      ],
+      "end": [
+        648.5,
+        1319.0
+      ],
+      "thickness": 26.0,
+      "sourceIds": [
+        "w026"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "n024",
+      "start": [
+        1090.0,
+        330.0
+      ],
+      "end": [
+        1090.0,
+        1086.0
+      ],
+      "thickness": 5.0,
+      "sourceIds": [
+        "w027"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "n025",
+      "start": [
+        1099.0,
+        1221.0
+      ],
+      "end": [
+        1099.0,
+        1312.0
+      ],
+      "thickness": 25.0,
+      "sourceIds": [
+        "w028"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "n026",
+      "start": [
+        1102.0,
+        330.0
+      ],
+      "end": [
+        1102.0,
+        621.0
+      ],
+      "thickness": 19.0,
+      "sourceIds": [
+        "w029"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "n027",
+      "start": [
+        1102.0,
+        943.0
+      ],
+      "end": [
+        1102.0,
+        1086.0
+      ],
+      "thickness": 19.0,
+      "sourceIds": [
+        "w030"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "n028",
+      "start": [
+        1116.5,
+        330.0
+      ],
+      "end": [
+        1116.5,
+        414.0
+      ],
+      "thickness": 10.0,
+      "sourceIds": [
+        "w031"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "n029",
+      "start": [
+        1121.5,
+        1263.0
+      ],
+      "end": [
+        1121.5,
+        1312.0
+      ],
+      "thickness": 20.0,
+      "sourceIds": [
+        "w032"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "n030",
+      "start": [
+        1134.0,
+        1190.0
+      ],
+      "end": [
+        1134.0,
+        1312.0
+      ],
+      "thickness": 5.0,
+      "sourceIds": [
+        "w033"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "n031",
+      "start": [
+        1238.0,
+        1191.0
+      ],
+      "end": [
+        1238.0,
+        1312.0
+      ],
+      "thickness": 5.0,
+      "sourceIds": [
+        "w034"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "n032",
+      "start": [
+        1541.5,
+        943.0
+      ],
+      "end": [
+        1541.5,
+        1312.0
+      ],
+      "thickness": 50.0,
+      "sourceIds": [
+        "w035"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "n033",
+      "start": [
+        1588.0,
+        330.0
+      ],
+      "end": [
+        1588.0,
+        1312.0
+      ],
+      "thickness": 43.0,
+      "sourceIds": [
+        "w036"
+      ],
+      "status": "candidate"
+    }
+  ],
+  "junctions": [
+    {
+      "position": [
+        324.0,
+        372.0
+      ],
+      "walls": [
+        "n002",
+        "n021"
+      ]
+    },
+    {
+      "position": [
+        1090.0,
+        363.5
+      ],
+      "walls": [
+        "n003",
+        "n024"
+      ]
+    },
+    {
+      "position": [
+        1102.0,
+        363.5
+      ],
+      "walls": [
+        "n003",
+        "n026"
+      ]
+    },
+    {
+      "position": [
+        1116.5,
+        363.5
+      ],
+      "walls": [
+        "n003",
+        "n028"
+      ]
+    },
+    {
+      "position": [
+        1090.0,
+        408.5
+      ],
+      "walls": [
+        "n004",
+        "n024"
+      ]
+    },
+    {
+      "position": [
+        1102.0,
+        408.5
+      ],
+      "walls": [
+        "n004",
+        "n026"
+      ]
+    },
+    {
+      "position": [
+        1116.5,
+        408.5
+      ],
+      "walls": [
+        "n004",
+        "n028"
+      ]
+    },
+    {
+      "position": [
+        1588.0,
+        608.5
+      ],
+      "walls": [
+        "n006",
+        "n033"
+      ]
+    },
+    {
+      "position": [
+        1588.0,
+        628.0
+      ],
+      "walls": [
+        "n007",
+        "n033"
+      ]
+    },
+    {
+      "position": [
+        1090.0,
+        955.0
+      ],
+      "walls": [
+        "n010",
+        "n024"
+      ]
+    },
+    {
+      "position": [
+        1102.0,
+        955.0
+      ],
+      "walls": [
+        "n010",
+        "n027"
+      ]
+    },
+    {
+      "position": [
+        1541.5,
+        955.0
+      ],
+      "walls": [
+        "n010",
+        "n032"
+      ]
+    },
+    {
+      "position": [
+        1588.0,
+        955.0
+      ],
+      "walls": [
+        "n010",
+        "n033"
+      ]
+    },
+    {
+      "position": [
+        324.0,
+        998.5
+      ],
+      "walls": [
+        "n013",
+        "n021"
+      ]
+    },
+    {
+      "position": [
+        1090.0,
+        998.5
+      ],
+      "walls": [
+        "n014",
+        "n024"
+      ]
+    },
+    {
+      "position": [
+        1102.0,
+        998.5
+      ],
+      "walls": [
+        "n014",
+        "n027"
+      ]
+    },
+    {
+      "position": [
+        1099.0,
+        1287.5
+      ],
+      "walls": [
+        "n019",
+        "n025"
+      ]
+    },
+    {
+      "position": [
+        1121.5,
+        1287.5
+      ],
+      "walls": [
+        "n019",
+        "n029"
+      ]
+    },
+    {
+      "position": [
+        1134.0,
+        1287.5
+      ],
+      "walls": [
+        "n019",
+        "n030"
+      ]
+    },
+    {
+      "position": [
+        1238.0,
+        1287.5
+      ],
+      "walls": [
+        "n019",
+        "n031"
+      ]
+    },
+    {
+      "position": [
+        1541.5,
+        1287.5
+      ],
+      "walls": [
+        "n019",
+        "n032"
+      ]
+    },
+    {
+      "position": [
+        1588.0,
+        1287.5
+      ],
+      "walls": [
+        "n019",
+        "n033"
+      ]
+    },
+    {
+      "position": [
+        324.0,
+        1292.5
+      ],
+      "walls": [
+        "n020",
+        "n021"
+      ]
+    },
+    {
+      "position": [
+        648.5,
+        1292.5
+      ],
+      "walls": [
+        "n020",
+        "n023"
+      ]
+    }
+  ],
+  "uncertainties": [
+    "Automatic candidates; scale is unknown.",
+    "Merges and junctions are heuristic and require review; gaps are not classified."
+  ]
+}

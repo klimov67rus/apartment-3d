@@ -1,0 +1,39 @@
+{
+  "source": "openings.json",
+  "decisions": {
+    "o001": {
+      "kind": "door",
+      "status": "accepted"
+    },
+    "o002": {
+      "kind": "door",
+      "status": "accepted"
+    },
+    "o003": {
+      "kind": "door",
+      "status": "accepted"
+    },
+    "o004": {
+      "kind": "door",
+      "status": "accepted"
+    },
+    "o005": {
+      "kind": "door",
+      "status": "accepted"
+    },
+    "o006": {
+      "kind": "unknown",
+      "status": "rejected",
+      "reason": "Разрыв контура, не подтверждён как окно"
+    },
+    "o007": {
+      "kind": "door",
+      "status": "accepted"
+    },
+    "o008": {
+      "kind": "window",
+      "status": "accepted",
+      "reason": "Оконное обозначение на кухне"
+    }
+  }
+}
